@@ -14,5 +14,3 @@ for row in data:
             max_date = row[0]
             max_temp = row[-1]
 f.close()
-print('기상관측 아래 서울의 최고 기온이 가장 높았던 날은 ', max_date,'으로, \n')
-print(max_temp,'였습니다.')
